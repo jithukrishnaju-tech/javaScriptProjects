@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 html {
@@ -65,4 +66,24 @@ body {
   padding: 4rem;
   text-align: center;
   font-size: 4rem;
+}
+#shopping-list {
+  font-size: 1.8rem;
+  padding: 4rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 30rem;
+  margin: 1rem auto;
+}
+
+ul li {
+  background-color: #fdfcf7;
+  padding: 1rem;
+  border-radius: 1.4rem;
+  font-size: 2rem;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 }
