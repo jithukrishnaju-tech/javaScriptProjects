@@ -16,11 +16,14 @@ body {
   color: #555;
   background-color: #e8dada;
 }
+.cat-cont {
+  text-align: center;
+}
 .cat-img {
   height: 20rem;
   width: auto;
-  padding: 1rem 14rem;
-
+  /* padding: 1rem 14rem; */
+  margin: 2rem auto;
   border: none;
 }
 .input- {
