@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <svg
+      id="visual"
+      viewBox="0 0 900 600"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1"
+    >
+      <rect x="0" y="0" width="100vw" height="100vh" fill="#002233" />
+      <path
+        d="M0 309L11.5 316C23 323 46 337 69 322C92 307 115 263 138.2 267.7C161.3 272.3 184.7 325.7 207.8 334.7C231 343.7 254 308.3 277 326.7C300 345 323 417 346 417.3C369 417.7 392 346.3 415.2 314.8C438.3 283.3 461.7 291.7 484.8 314.7C508 337.7 531 375.3 554 365.3C577 355.3 600 297.7 623 307.8C646 318 669 396 692.2 420.7C715.3 445.3 738.7 416.7 761.8 384C785 351.3 808 314.7 831 297.8C854 281 877 284 888.5 285.5L900 287L900 601L888.5 601C877 601 854 601 831 601C808 601 785 601 761.8 601C738.7 601 715.3 601 692.2 601C669 601 646 601 623 601C600 601 577 601 554 601C531 601 508 601 484.8 601C461.7 601 438.3 601 415.2 601C392 601 369 601 346 601C323 601 300 601 277 601C254 601 231 601 207.8 601C184.7 601 161.3 601 138.2 601C115 601 92 601 69 601C46 601 23 601 11.5 601L0 601Z"
+        fill="#ba493e"
+        stroke-linecap="round"
+        stroke-linejoin="miter"
+      />
+    </svg>
+    <header>
+      <h1 class="primary-heading">AI Image generator</h1>
+    </header>
+    <section class="section-image"></section>
+    <section class="botton-section">
+      <div class="section-input">
+        <input type="text" placeholder="enter prompt" id="text-input" />
+        <div id="submit-icon"><img src="caret-right.svg" alt="" /></div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

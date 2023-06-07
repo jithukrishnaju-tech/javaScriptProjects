@@ -28,7 +28,6 @@ btn.addEventListener("click", () => {
   // appendingValues(inputValue);
   // input.value = "";
   clear(input);
-  console.log(`${inputValue} is added to the database`);
 });
 /*
 Challenge:
