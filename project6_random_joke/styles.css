@@ -1,4 +1,19 @@
-.imageElement {
-  height: 50px;
-  width: 50px;
+body {
+  margin: 0;
+  padding: 0;
+}
+.getImage {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.btnsection {
+  text-align: center;
+}
+.image-section {
+  text-align: center;
 }
